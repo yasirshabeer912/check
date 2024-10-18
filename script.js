@@ -20,10 +20,12 @@ document.addEventListener('DOMContentLoaded', function () {
     function showDropdown() {
         dropdownContent.classList.add('show');
         servicesToggle.textContent = 'SERVICES ▲';
+        servicesToggle.classList.add("nav-active")
     }
-
+    
     // Function to hide the dropdown
     function hideDropdown() {
+        servicesToggle.classList.remove("nav-active")
         dropdownContent.classList.remove('show');
         servicesToggle.textContent = 'SERVICES ▼';
     }
