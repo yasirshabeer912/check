@@ -113,6 +113,11 @@
     .services-grid {
         grid-template-columns: repeat(1, 1fr);
     }
+    .services-container {
+        width: 90%;
+        margin: auto;
+        max-width: max-content;
+    }
 
     .service-card {
         flex-direction: column;
@@ -120,6 +125,8 @@
         justify-content: center;
         text-align: center;
         gap: 2rem;
+        width: 100%;
+        overflow: hidden;
     }
 
 
