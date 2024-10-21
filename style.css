@@ -213,6 +213,18 @@ nav ul li a {
     top: 0;
     left: 0;
 }
+video::-internal-media-controls {
+    display: none;
+}
+
+video::-webkit-media-controls {
+    display: none;
+}
+
+video::-moz-media-controls {
+    display: none;
+}
+
 
 /* Hero Section End */
 
