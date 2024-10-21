@@ -99,7 +99,7 @@
     <main>
 
         <div class="video-container">
-            <video autoplay >
+            <video autoplay muted controls >
             <source src="./SOFTWARE DIRECT.mp4" id="bannerVideo" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -426,79 +426,6 @@
         setInterval(nextSlide, 3000);
     </script>
 
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const video = document.getElementById('bannerVideo');
-        
-        // Function to handle autoplay
-        async function attemptAutoplay() {
-            try {
-                // First attempt: Basic play
-                await video.play();
-                console.log('Autoplay started successfully');
-            } catch (error) {
-                console.log('Initial autoplay failed:', error);
-                
-                // Second attempt: Try with muted
-                try {
-                    video.muted = true;
-                    await video.play();
-                    console.log('Autoplay started with muted');
-                } catch (secondError) {
-                    console.log('Muted autoplay failed:', secondError);
-                    
-                    // Final fallback: Wait for user interaction
-                    document.addEventListener('click', function playOnClick() {
-                        video.play();
-                        document.removeEventListener('click', playOnClick);
-                    }, { once: true });
-                    
-                    console.log('Waiting for user interaction to play');
-                }
-            }
-        }
-
-        // Handle video loading
-        video.addEventListener('loadeddata', function() {
-            console.log('Video data loaded');
-            attemptAutoplay();
-        });
-
-        // Handle video errors
-        video.addEventListener('error', function() {
-            console.error('Error loading video:', video.error);
-        });
-
-        // Ensure video loops
-        video.addEventListener('ended', function() {
-            video.currentTime = 0;
-            video.play();
-        });
-
-        // Handle visibility changes (tab switching)
-        document.addEventListener('visibilitychange', function() {
-            if (document.visibilityState === 'visible') {
-                video.play();
-            }
-        });
-
-        // Optional: Handle mobile device wake lock
-        async function requestWakeLock() {
-            if ('wakeLock' in navigator) {
-                try {
-                    const wakeLock = await navigator.wakeLock.request('screen');
-                    console.log('Wake Lock is active');
-                } catch (err) {
-                    console.log(`Wake Lock error: ${err.name}, ${err.message}`);
-                }
-            }
-        }
-        requestWakeLock();
-
-        // Immediate attempt to start playing
-        attemptAutoplay();
-    });
-</script>
 </body>
 
 </html>
