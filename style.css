@@ -507,7 +507,7 @@ video::-moz-media-controls {
 .team-content {
     max-width: 1350px;
     margin: 0 auto 0 auto;
-    padding: 40px 20px;
+    padding: 40px 5rem;
 }
 
 .team-content h2 {
@@ -583,6 +583,7 @@ video::-moz-media-controls {
     background-size: cover;
     background-position: center center;
     min-height: 550px;
+    margin-bottom: 2rem;
 }
 
 .team-hosting .container {
@@ -634,7 +635,6 @@ video::-moz-media-controls {
 }
 
 .team-button {
-    display: inline-block;
     background-color: transparent;
     background-image: linear-gradient(180deg, #0F9C06 0%, #03E014 100%);
     border-radius: 0px 0px 0px 0px;
@@ -644,6 +644,7 @@ video::-moz-media-controls {
     font-weight: bold;
     margin-top: 20px;
     color: white;
+    float: right;
 }
 
 .hosting-stats {
@@ -654,8 +655,8 @@ video::-moz-media-controls {
     align-items: center;
     padding: 2rem;
     border: 3px solid #4ce09d;
-    margin-top: -70px;
-    margin-bottom: -70px;
+    margin-top: -25px;
+    margin-bottom: -25px;
 }
 
 .hosting-stats h2 {

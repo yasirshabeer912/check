@@ -33,6 +33,7 @@
     <!-- Canonical URL -->
     <link rel="canonical" href="https://check-gilt-gamma.vercel.app">
     <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <script type="application/ld+json">
         {
@@ -109,7 +110,7 @@
         <div class="team-content">
             <h2>Das Team</h2>
             <div class="team-section">
-                <div class="team-description">
+                <div class="team-description" data-aos="fade-up" data-aos-once="true">
                     <p class="paragraph">Wir entwickeln mit Leidenschaft gemeinsam mit unseren Kunden innovative
                         Lösungen und haben uns auf die Automatisierung von Geschäftsprozessen spezialisiert. Unser Team
                         besteht aus erfahrenen Senior-Entwicklern, die ihre umfangreiche Expertise in jedes Projekt
@@ -143,7 +144,7 @@
             </div>
 
             <div class="team-location">
-                <h2>Standort Baden <br> Bei Wien</h2>
+                <h2 data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" data-aos-once="true">Standort Baden <br> Bei Wien</h2>
                 <p class="paragraph">Unser Standort in Baden bei Wien bietet eine ideale Lage mit ausgezeichneter
                     Infrastruktur und inspirierender Umgebung. Bekannt für Thermalquellen und Kultur, verbindet Baden
                     Lebensqualität und Geschäftsleben harmonisch.</p>
@@ -191,7 +192,7 @@
                     <a href="#" class="team-button">ZUM HOSTING ANGEBOT</a>
                 </div>
                 <div class="hosting-stats">
-                    <h2>Hosting: 99.9% Ausfallsicherheit pro Monat</h2>
+                    <h2 data-aos-delay="300" data-aos-duration="1000" data-aos="fade-up" data-aos-once="true">Hosting: 99.9% Ausfallsicherheit pro Monat</h2>
                 </div>
             </div>
         </div>
@@ -232,7 +233,10 @@
         </div>
     </footer>
     <script src="./script.js"></script>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>
