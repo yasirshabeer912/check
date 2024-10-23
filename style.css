@@ -17,12 +17,12 @@ body {
 }
 
 .paragraph {
-    font-size: 17px;
+    font-size: 15px;
     font-style: normal;
     color: rgb(104, 91, 91);
     word-spacing: 4px;
     font-family: 'Roboto';
-    line-height: 2rem;
+    line-height: 30px;
     margin-bottom: 2rem;
 }
 
@@ -680,13 +680,15 @@ video::-moz-media-controls {
     background-image: url('./assets/iStock-1294393494.jpg');
     background-size: cover;
     background-position: center;
-    height: 200px;
+    height: 250px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
-    font-size: 1.5em;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: #FFFFFF;
+    font-family: "Maven Pro", Sans-serif;
+    font-size: 1.7em;
+    /* font-weight: 300; */
+    text-shadow: 8px 0px 0px rgba(0,0,0,0.3);
 }
 
 .inner-content {
@@ -705,6 +707,20 @@ video::-moz-media-controls {
     align-items: start;
     flex-direction: column;
 }
+.text-content h2{
+        color: #000000;
+        font-family: "Akatab", Sans-serif;
+        font-size: 2.3em;
+        font-weight: bold;
+        line-height: 0.9em;
+        letter-spacing: 1px;
+        margin-bottom: 1rem;
+}
+.text-content p{
+    color: #000000;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
 
 .image-content {
     width: 50%;
@@ -722,9 +738,33 @@ video::-moz-media-controls {
     height: auto;
 }
 
+.digitization{
+    position: relative;
+    margin-top: 5rem;
+}
 .digitization img {
     width: 100%;
     object-fit: cover;
+}
+.digitization a.contact-button{
+    font-family: "Muli", Sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.42em;
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #55CC47 0%, #1E7A25 100%);
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: rgba(255,255,255,0);
+    border-radius: 30px 30px 30px 30px;
+    padding: 12px 25px 12px 24px;
+    text-wrap: nowrap;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10%;
+    
 }
 
 /* =================== WEB PAGE END ===================== */
