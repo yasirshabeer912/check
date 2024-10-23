@@ -898,12 +898,15 @@ video::-moz-media-controls {
     display: block;
     width: 200px;
     margin: 5rem auto;
-    padding: 10px;
-    background-color: #4CAF50;
+    background-image: linear-gradient(180deg, #55CC47 0%, #1E7A25 100%);
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: rgba(255,255,255,0);
+    border-radius: 30px 30px 30px 30px;
+    padding: 12px 25px 12px 24px;
     color: white;
     text-align: center;
     text-decoration: none;
-    border-radius: 5px;
     font-weight: bold;
 }
 
