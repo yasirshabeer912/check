@@ -33,6 +33,7 @@
     <!-- Canonical URL -->
     <link rel="canonical" href="https://check-gilt-gamma.vercel.app">
     <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <script type="application/ld+json">
         {
@@ -71,7 +72,7 @@
             </div>
             <nav>
                 <ul>
-                    <li><a class="nav-link nav-active" href="#">HOME</a></li>
+                    <li><a class="nav-link nav-active" href="/index.html">HOME</a></li>
                     <li><a class="nav-link" href="./uber-uns.html">ÜBER UNS</a></li>
                     <li class="services-dropdown">
                         <a class="services-toggle">SERVICES ▼</a>
@@ -107,22 +108,22 @@
         </section>
         <div class="contact-container">
             <div class="contact-info">
-                <h2 class="contact-heading">Kontaktdaten</h2>
-                <h3 class="sub-heading">SoftwareDirekt OG</h3>
+                <h2 class="contact-heading" data-aos="fade-up" data-aos-duration="1000" data-aos-duration="100">Kontaktdaten</h2>
+                <h3 class="sub-heading" data-aos="fade-up" data-aos-duration="1000" data-aos-duration="100"> SoftwareDirekt OG</h3>
                 <div class="inforamtion">
-                    <div class="info">
+                    <div class="info" data-aos="fade-up" data-aos-duration="1000" data-aos-duration="100">
                         <span>E-MAIL</span>
                         <a href="mailto:office@softwaredirekt.at">office@softwaredirekt.at</a>
                     </div>
-                    <div class="info">
+                    <div class="info" data-aos="fade-up" data-aos-duration="1000" data-aos-duration="100">
                         <span>Telefonnummer</span>
                         <a href="tel:++43 660 64 48 088">+43 660 64 48 088</a>
                         </div>
                 </div>
                 
             </div>
-            <div class="contact-form">
-                <h2 class="form-heading">Schreiben Sie uns!</h2>
+            <div class="contact-form" data-aos="fade-up" data-aos-duration="1000" data-aos-duration="100">
+                <h2 class="form-heading" data-aos="fade-up" data-aos-duration="1000" data-aos-duration="100">Schreiben Sie uns!</h2>
                 <p class="form-paragraph">Beschreiben Sie kurz Ihr Anliegen, wir melden uns!</p>
                 <form>
                     <div class="form-group">
@@ -176,6 +177,9 @@
         </div>
     </footer>
     <script src="./script.js"></script>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>

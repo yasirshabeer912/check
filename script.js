@@ -73,5 +73,58 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Initial check when the DOM is loaded
     checkScreenWidth();
+
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Get current path
+    const currentPath = window.location.pathname;
+    // Get the filename from the path
+    const currentPage = currentPath.split('/').pop();
+    
+    // Get all nav links
+    const navLinks = document.querySelectorAll('.nav-link');
+    
+    // Get services dropdown links
+    const dropdownLinks = document.querySelectorAll('.dropdown-content a');
+    const servicesToggle = document.querySelector('.services-toggle');
+    
+    // Remove any existing nav-active classes
+    navLinks.forEach(link => {
+        link.classList.remove('nav-active');
+        
+        // Get the href and filename from each link
+        const linkHref = link.getAttribute('href');
+        const linkPage = linkHref.split('/').pop();
+        
+        // Compare the current page with the link's page
+        if (currentPage === linkPage) {
+            link.classList.add('nav-active');
+        }
+        
+        // Special case for home page
+        if (currentPage === '' && linkHref === '/index.html') {
+            link.classList.add('nav-active');
+        }
+    });
+    
+    // Check dropdown links and update services toggle color
+    dropdownLinks.forEach(link => {
+        if (link.getAttribute('href') === './' + currentPage) {
+            // Add color to services toggle
+            servicesToggle.style.color = '#ff0066';
+            
+            // Optional: Add active class to the parent dropdown item
+            const dropdownParent = link.closest('.services-dropdown');
+            if (dropdownParent) {
+                dropdownParent.classList.add('nav-active');
+            }
+        }
+    });
+
+    // Debug logging (you can remove this after confirming it works)
+    console.log('Current path:', currentPath);
+    console.log('Current page:', currentPage);
+});
+
 
