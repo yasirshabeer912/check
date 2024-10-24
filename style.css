@@ -786,8 +786,39 @@ video::-moz-media-controls {
     padding: 0% 10%;
     text-align: start;
 }
+.api-page-content{
+        margin: 0 auto;
+        padding: 20px;
+        width: 96%;
+        margin: auto;
+    
+}
+.api-page-banner {
+    background-image: url('./assets/network-9091914_1920.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 0% 10%;
+    text-align: start;
+}
 
 .mobile-page-banner h1 {
+    font-size: 3.5em;
+    margin: 0;
+    color: #FFFFFF;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+    text-shadow: 8px 0px 0px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    margin: auto;
+}
+.api-page-banner h1 {
     font-size: 3.5em;
     margin: 0;
     color: #FFFFFF;
@@ -820,6 +851,9 @@ video::-moz-media-controls {
     margin-bottom: 40px;
     margin: 6rem 0 8rem;
 }
+.intro.api{
+    gap: 5rem;
+}
 
 .intro h2 {
     color: #010101;
@@ -842,6 +876,13 @@ video::-moz-media-controls {
     color: white;
     padding: 40px;
     border-radius: 10px;
+}
+.ideenfindung.api{
+    background: url('./assets/tree-2593542_1920.jpg');
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed;
+    padding: 5rem 6rem;
 }
 
 .ideenfindung h2 {
@@ -942,13 +983,14 @@ video::-moz-media-controls {
 
 .service-container,
 .advantages-container {
-    width: 90%;
+    width: 1140px;
     margin: 0 auto;
 
 }
 
+
 .page-banner {
-    background-image: url('./assets/istockphoto-537331500-1024x1024-1.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url('./assets/istockphoto-537331500-1024x1024-1.jpg');
     background-size: cover;
     background-position: center;
     color: white;
@@ -1011,7 +1053,9 @@ video::-moz-media-controls {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    margin: 2rem 0;
+    margin: 7rem 0;
+    padding: 0 1rem;
+
 }
 
 .service-items {
@@ -1037,8 +1081,13 @@ video::-moz-media-controls {
 .services-li {
     margin-bottom: 0.5rem;
     position: relative;
-    padding: .9rem 1rem;
+    padding: .9rem 2rem;
     border-bottom: 1px solid #00000052;
+    font-family: "Cairo", Sans-serif;
+    font-size: 1.1em;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 600;
 }
 
 .services-li::before {
@@ -1057,8 +1106,10 @@ video::-moz-media-controls {
 .contact-section {
     background: url(./assets/tree-2593542_1920.jpg);
     color: white;
-    padding: 4rem 0;
+    padding: 6rem 0;
     text-align: center;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 .contact-btn {
@@ -1094,11 +1145,10 @@ video::-moz-media-controls {
 .what-is-hosting {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 40px;
     max-width: 1140px;
-    margin: auto;
+    margin:0rem auto 5rem;
     gap: 2.5rem;
-    padding: 4rem 0;
+    padding: 5rem 0 3rem;
 }
 
 .what-is-hosting .column {
@@ -1164,14 +1214,23 @@ ul {
 
 .professional-hosting .container .feature {
     background: #208cdf9a;
-    padding: 4rem;
+    padding: 3rem;
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 1rem;
+}
+
+.feature-heading {
+    display: flex;
+    gap: 1rem;
+    /* align-items: center; */
+    color: white !important;
+}
+.feature-heading svg {
+    fill: #00FF5C;
 }
 
 .professional-hosting .container .feature h2 {
-    color: #18dc0a;
     margin-bottom: 10px;
 }
 
@@ -1185,7 +1244,7 @@ ul {
     background-color: #6488ff71;
     height: max-content;
     width: 100%;
-    padding: 10rem 4rem;
+    padding: 7rem 4rem;
     color: #FFFFFF;
     font-family: "Arial", Sans-serif;
     font-size: 55px;
