@@ -1486,7 +1486,7 @@ section.contact-header {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    max-width: 1140px;
+    max-width: 100%;
     margin: auto;
 }
 
@@ -1533,6 +1533,7 @@ section.contact-header {
 .footer-social {
     display: flex;
     gap: 1rem;
+    margin-right: 2rem;
 }
 
 .footer-social a {
