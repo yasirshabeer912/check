@@ -15,6 +15,8 @@ body {
     font-family: "Roboto", sans-serif;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
+
 }
 
 .paragraph {
@@ -521,6 +523,7 @@ video::-moz-media-controls {
     max-width: 1350px;
     margin: 0 auto 0 auto;
     padding: 40px 5rem;
+    scroll-behavior: smooth;
 }
 
 .team-content h2 {
@@ -964,24 +967,6 @@ video::-moz-media-controls {
     font-weight: bold;
 }
 
-@media (max-width: 768px) {
-    .mobile-page-banner {
-        height: 200px;
-    }
-
-    .mobile-page-banner h1 {
-        font-size: 2em;
-    }
-
-    .mobile-page-banner p {
-        font-size: 1em;
-    }
-
-    .ideenfindung {
-        padding: 20px;
-    }
-}
-
 /* =================== MOBILE APPS PAGE END ===================== */
 
 
@@ -996,7 +981,7 @@ video::-moz-media-controls {
 
 .service-container,
 .advantages-container {
-    width: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
 
 }

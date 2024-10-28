@@ -154,12 +154,31 @@
 
 
     /* uber-uns */
+    .team-content {
+        padding: 23px 1rem;
+        text-align: left;
+    }
+    .team-content h2 {
+        font-size: 1.8em;
+        width: 90%;
+        margin: 0 auto 1em;
+    }
+    .team-location h2{
+        margin: 0 auto 1em 0;
+
+    }
     .team-section {
         flex-direction: column;
             gap: 3rem;
     }
+    .team-section p {
+        font-size: 1.2em;
+        line-height: 1.8em;
+    }
     .paragraph {
         margin-bottom: 1rem;
+        font-size: 1.2em;
+        line-height: 1.8em;
     }
     .team-description {
         width: 90%;
@@ -198,6 +217,9 @@
     .hosting-stats h2{
         font-size: 2.2em;
     }
+    .hosting-features{
+        background-color: #5083cce0;
+    }
     .hosting-features .feature {
         
         flex-direction: column;
@@ -217,12 +239,45 @@
     }
 
 
+    /* web */
+    .web-header {
+        height: 300px;
+        font-size: 1.3em;
+        text-align: center;
+    }
+    .digitization a.contact-button {
+        font-size: 0.7rem;
+        top: -20%;
+    }
     /* mobile apps */
 
     section.intro {
         margin: 3rem 1rem;
         flex-direction: column;
         gap: 2rem;
+    }
+    .mobile-page-banner {
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./assets/smartphone-6701409_1920.jpg);
+        height: 300px;
+        text-align: start;
+        background-blend-mode: overlay;
+        align-items: start;
+    }
+
+    .mobile-page-banner h1 {
+        font-size: 2em;
+        margin: 0;
+        text-align: left;
+    }
+
+    .mobile-page-banner p {
+        font-size: 1em;
+        text-align: left;
+        max-width: 100%;
+    }
+
+    .ideenfindung {
+        padding: 20px;
     }
 
     .ideenfindung h2{
@@ -267,13 +322,7 @@
         width: 90%;
         margin: auto;
     }
-    .professional-hosting .container .feature, .professional-hosting .container .stats {
-        width: 100%;
-    }
-    .professional-hosting .container .feature {
-        padding: 2rem;
-    }
-    
+  
 
     .contact-container {
         width: 90%;
@@ -287,6 +336,77 @@
         padding: 2rem;
     }
 
+    /* frontend-backend */
+    h1.page-heading {
+        font-size: 2em;
+        text-align: start;
+    }
+    .page-banner {
+        padding: 5rem 0;
+    }
+    .service-container, .advantages-container {
+        max-width: 1140px;
+        margin: 0 auto;
+        width: 85%;
+    }
+    .advantage-item p {
+        font-size: 1.1em;
+        line-height: 2.5rem;
+    }
+    .service-description p {
+        font-size: 1.1rem;
+        line-height: 2.2rem;
+    }
+
+    /* hosting */
+    .professional-hosting .container .stats h2 {
+        padding: 7rem 2rem;
+        font-size: 2rem;
+    }
+    .professional-hosting .container .feature, .professional-hosting .container .stats {
+        width: 100%;
+    }
+    .professional-hosting .container .feature {
+        background: #208cdfbd;
+       
+    }
+    .professional-hosting .container .feature {
+        padding: 1.5rem;
+    }
+    .inner-feature .paragraph {
+        margin-bottom: 1rem;
+        font-size: 1em;
+        line-height: 1.8em;
+    }
+    /* api */
+    .intro.api .paragraph {
+        font-size: 1em;
+    }
+    .ideenfindung.api {
+        padding: 2rem 1rem;
+    }
+
+    /* kontact */
+    .inforamtion {
+        display: flex;
+        gap: 2rem;
+        margin-top: 2rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+h2.contact-heading.aos-init.aos-animate {
+    WIDTH: 100%;
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.contact-info .sub-heading {
+    text-align: center;
+    width: 100%;
+}
 
 
 }
