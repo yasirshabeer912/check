@@ -127,4 +127,7 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log('Current page:', currentPage);
 });
 
+document.getElementById("bannerVideo").removeAttribute("controls");
+
+
 

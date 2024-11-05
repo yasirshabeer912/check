@@ -59,7 +59,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 5rem 0rem 2rem;
+    padding: 0 5rem 2rem 2rem;
 }
 
 .logo {
@@ -789,7 +789,7 @@ video::-moz-media-controls {
 /* =================== MOBILE APPS PAGE ===================== */
 
 .mobile-page-banner {
-    background-image: url('./assets/smartphone-6701409_1920.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.38), rgba(0, 0, 0, 0.38)),url('./assets/smartphone-6701409_1920.jpg');
     background-size: cover;
     background-position: center;
     height: 300px;
@@ -801,6 +801,7 @@ video::-moz-media-controls {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     padding: 0% 10%;
     text-align: start;
+    /* margin-right: 11px; */
 }
 .api-page-content{
         margin: 0 auto;
@@ -810,7 +811,7 @@ video::-moz-media-controls {
     
 }
 .api-page-banner {
-    background-image: url('./assets/network-9091914_1920.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('./assets/network-9091914_1920.jpg');
     background-size: cover;
     background-position: center;
     height: 250px;
@@ -823,6 +824,11 @@ video::-moz-media-controls {
     padding: 0% 10%;
     text-align: start;
 }
+@media (min-width:768px){
+    .api-page-banner{
+        padding: 0% 25%;
+    }
+}
 
 .mobile-page-banner h1 {
     font-size: 3.5em;
@@ -832,7 +838,7 @@ video::-moz-media-controls {
     font-weight: 600;
     text-shadow: 8px 0px 0px rgba(0, 0, 0, 0.3);
     text-align: center;
-    margin: auto;
+    margin: 0 auto;
 }
 .api-page-banner h1 {
     font-size: 3.5em;
@@ -842,9 +848,18 @@ video::-moz-media-controls {
     font-weight: 600;
     text-shadow: 8px 0px 0px rgba(0, 0, 0, 0.3);
 }
+.api-page-banner p {
+    color: #ffffff;
+    font-family: "Roboto", Sans-serif;
+    font-size: 1.2em;
+    font-weight: 600;
+    line-height: 1.3em;
+    text-shadow: 2px 0px 0px rgba(0,0,0,0.3);
+    margin-top: 1rem;
+}
 
 .mobile-page-banner p {
-    text-align: right;
+    text-align: start;
     color: #FFFFFF;
     font-family: "Roboto", Sans-serif;
     font-weight: 600;
@@ -858,7 +873,7 @@ video::-moz-media-controls {
 .app-page-content {
     margin: 0 auto;
     padding: 20px;
-    width: 90%;
+    max-width: 1150px;
     margin: auto;
 }
 
@@ -868,7 +883,7 @@ video::-moz-media-controls {
     margin: 6rem 0 8rem;
 }
 .intro.api{
-    gap: 5rem;
+    gap: 10rem;
 }
 
 .intro h2 {
@@ -890,7 +905,7 @@ video::-moz-media-controls {
     background-size: cover;
     background-position: center;
     color: white;
-    padding: 40px;
+    padding: 4rem 3rem;
     border-radius: 10px;
 }
 .ideenfindung.api{
@@ -906,8 +921,8 @@ video::-moz-media-controls {
     margin-bottom: 30px;
     color: #ffffff;
     font-family: "Akatab", Sans-serif;
-    font-size: 2.6em;
-    font-weight: 600;
+    font-size: 2.8em;
+    font-weight: 700;
     line-height: 0.9em;
     letter-spacing: 1px;
 }
@@ -978,6 +993,16 @@ video::-moz-media-controls {
     width: 80%;
     margin: 0 auto;
 }
+@media (min-width:769px){
+    .banner-container {
+        width: 40%;
+        text-align: right;
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        margin-right: 10rem;
+    }
+}
 
 .service-container,
 .advantages-container {
@@ -990,11 +1015,12 @@ video::-moz-media-controls {
 .page-banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url('./assets/istockphoto-537331500-1024x1024-1.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: center top;
     color: white;
     padding: 4rem 0;
     text-align: right;
-
+    display: flex;
+    justify-content: end;
 }
 
 .page-heading {
@@ -1026,7 +1052,7 @@ video::-moz-media-controls {
     color: #000000;
     font-family: "Roboto", Sans-serif;
     font-weight: 400;
-    line-height: 50px;
+    line-height: 2.5rem;
 }
 
 .service-description h2 {
@@ -1452,11 +1478,11 @@ section.contact-header {
     background-color: #28a745;
     color: white;
     border: none;
-    padding: 0.75rem 1.5rem;
+    padding: 1.2rem 1.5rem;
     font-size: 1rem;
     cursor: pointer;
     width: 100%;
-    border-radius: 4px;
+    border-radius: 1px;
 }
 
 .submit-btn:hover {
@@ -1486,8 +1512,8 @@ section.contact-header {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    max-width: 100%;
-    margin: auto;
+    max-width: 98%;
+    margin: 5rem auto 0;
 }
 
 .footer-logo-and-details {
@@ -1505,8 +1531,8 @@ section.contact-header {
 
 .footer-logo-and-details p {
     margin: 0;
-    font-size: 0.9em;
-    color: #666;
+    font-size: 14px;
+    color: black;
     line-height: 1.5;
     margin-bottom: 1em;
 }
