@@ -20,13 +20,14 @@ body {
 }
 
 .paragraph {
-    font-size: 15px;
+        text-align: justify;
+    color: #374951;
+    font-family: "Roboto", Sans-serif;
+    font-size: 1em;
+    text-transform: none;
     font-style: normal;
-    color: rgb(104, 91, 91);
-    word-spacing: 4px;
-    font-family: 'Roboto';
-    line-height: 30px;
-    margin-bottom: 2rem;
+    text-decoration: none;
+    line-height: 2.2em;
 }
 
 .white {
@@ -111,18 +112,25 @@ nav li {
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: white;
+    background-color: transparent;
     min-width: 250px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     z-index: 1000;
+    padding: 17px 0px;
+}
+.drop-down-links {
+    background: white;
+    padding: 12px 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .dropdown-content a {
     color: black;
-    padding: 12px 16px;
+    padding: 10px 16px;
     text-decoration: none;
     display: block;
     white-space: nowrap;
+    font-size: 13px;
+    font-weight: 500;
 }
 
 .dropdown-content a:hover {
@@ -615,7 +623,7 @@ video::-moz-media-controls {
 }
 
 .hosting-features {
-    background-color: #5083CC8C;
+    background-color: #5083cccc;
     padding: 4em 3em 2em 3em;
     color: white;
     margin: 1rem 0;
@@ -883,14 +891,24 @@ video::-moz-media-controls {
     margin: 6rem 0 8rem;
 }
 .intro.api{
-    gap: 10rem;
+    gap: 4rem;
+}
+.intro.api .paragraph{
+    text-align: justify;
+    color: #000000;
+    font-family: "Roboto", Sans-serif;
+    font-size: 1em;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 2em;
 }
 
 .intro h2 {
     color: #010101;
     font-family: "Akatab", Sans-serif;
     font-size: 2.7em;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 0.9em;
     letter-spacing: 1px;
     width: 100%;
@@ -962,8 +980,8 @@ video::-moz-media-controls {
 .grid-icon svg {
     width: 2rem;
     height: 2rem;
-    fill: #ff69b4;
-    color: #ff69b4;
+    fill: #FF0054;
+    color: #FF0054;
 }
 
 .contact-button {
@@ -1584,5 +1602,8 @@ section.contact-header {
     .footer-info,
     .footer-social {
         margin-bottom: 1rem;
+    }
+    .moible-hide{
+        display: none;
     }
 }
