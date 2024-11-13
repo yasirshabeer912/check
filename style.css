@@ -1607,3 +1607,155 @@ section.contact-header {
         display: none;
     }
 }
+
+
+
+
+/* extra-teacher */
+.allgemeine-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.allgemeine-header {
+    background: linear-gradient(135deg, #2c3e50, #3498db);
+    color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.allgemeine-title {
+    font-size: 2.5rem;
+    margin: 0;
+    text-align: center;
+}
+
+.allgemeine-subtitle {
+    text-align: center;
+    color: #ecf0f1;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+}
+
+.allgemeine-section {
+    background: white;
+    border-radius: 8px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    border: 1px solid #eee;
+}
+
+.allgemeine-section-title {
+    color: #2c3e50;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #3498db;
+}
+
+.allgemeine-subsection {
+    margin: 1rem 0;
+    padding-left: 1rem;
+    border-left: 3px solid #3498db;
+}
+
+.allgemeine-list {
+    list-style-type: none;
+    padding-left: 1.5rem;
+    margin: 1rem 0;
+}
+
+.allgemeine-list li {
+    margin-bottom: 0.8rem;
+    position: relative;
+}
+
+.allgemeine-list li:before {
+    content: "•";
+    color: #3498db;
+    position: absolute;
+    left: -1.5rem;
+}
+
+.allgemeine-paragraph {
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+.allgemeine-important {
+    background-color: #f8f9fa;
+    padding: 1.5rem;
+    border-left: 4px solid #e74c3c;
+    margin: 1.5rem 0;
+    border-radius: 0 8px 8px 0;
+}
+
+.allgemeine-important h3 {
+    color: #e74c3c;
+    margin-bottom: 0.5rem;
+}
+
+.allgemeine-navigation {
+    position: sticky;
+    top: 0;
+    background: white;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    z-index: 100;
+}
+
+.allgemeine-navigation select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+@media print {
+    .allgemeine-navigation {
+        display: none;
+    }
+
+    .allgemeine-container {
+        padding: 0;
+    }
+
+    .allgemeine-header {
+        background: none;
+        color: black;
+        box-shadow: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .allgemeine-container {
+        padding: 1rem;
+    }
+
+    .allgemeine-header {
+        padding: 1.5rem;
+    }
+
+    .allgemeine-title {
+        font-size: 2rem;
+    }
+
+    .allgemeine-section {
+        padding: 1.5rem;
+    }
+
+    .allgemeine-subsection {
+        padding-left: 0.5rem;
+    }
+}
+
+strong {
+    color: #2c3e50;
+}
