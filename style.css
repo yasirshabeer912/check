@@ -508,6 +508,35 @@ video::-moz-media-controls {
     color: white;
     padding: 2rem 0;
 }
+@media (min-width:769px){
+    .team-banner .container {
+        width: 90%;
+        margin: auto;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        padding: 0 !important;
+        height: 280px;
+    }
+    .web-header{
+        height: 280px !important;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        padding: 0 !important;
+    }
+    .mobile-page-banner,
+    .team-banner,
+    .hosting-banner,
+    .api-page-banner,
+    section.contact-header{
+        height: 280px !important;
+    }
+
+}
 
 .team-banner h1 {
     color: white;
@@ -1152,6 +1181,7 @@ video::-moz-media-controls {
     text-align: center;
     background-attachment: fixed;
     background-position: center;
+    margin-top: 3rem;
 }
 
 .contact-btn {
@@ -1713,6 +1743,8 @@ section.contact-header {
 .allgemeine-paragraph {
     margin-bottom: 1rem;
     text-align: justify;
+    font-size: 1rem;
+    line-height: 2rem;
 }
 
 .allgemeine-important {
@@ -1846,10 +1878,6 @@ strong {
     text-decoration: underline;
 }
 
-.contact-info {
-    display: grid;
-    gap: 0.5rem;
-}
 
 .legal-info {
     font-size: 0.875rem;
