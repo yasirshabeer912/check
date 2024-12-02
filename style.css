@@ -500,6 +500,7 @@ video::-moz-media-controls {
     background-position: center;
     padding: 40px 20px;
     text-align: left;
+    display: flex;
 }
 
 .team-banner .container {
@@ -518,7 +519,6 @@ video::-moz-media-controls {
         align-items: start;
         flex-direction: column;
         padding: 0 !important;
-        height: 280px;
     }
     .web-header{
         height: 280px !important;
@@ -1219,7 +1219,7 @@ video::-moz-media-controls {
         background-image: linear-gradient(rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0.26)),
         url('./assets/hosting-banner.jpg');
         background-size: cover;
-        background-position:bottom;
+        background-position:center;
         height: 250px;
         display: flex;
         align-items: center;
