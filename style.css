@@ -1042,12 +1042,13 @@ video::-moz-media-controls {
 }
 @media (min-width:769px){
     .banner-container {
-        width: 40%;
+        width: 60%;
         text-align: right;
         display: flex;
         justify-content: end;
-        align-items: end;
+        align-items: center;
         margin-right: 10rem;
+        height: 280px;
     }
 }
 
@@ -1064,7 +1065,6 @@ video::-moz-media-controls {
     background-size: cover;
     background-position: center top;
     color: white;
-    padding: 4rem 0;
     text-align: right;
     display: flex;
     justify-content: end;
@@ -1214,22 +1214,24 @@ video::-moz-media-controls {
 
 /* =================== HOSTING PAGE ===================== */
 
-.hosting-banner{
-  
-        background-image: linear-gradient(rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0.26)),
+.hosting-banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0.26)),
         url('./assets/hosting-banner.jpg');
-        background-size: cover;
-        background-position:center;
-        height: 250px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: #FFFFFF;
-        font-family: "Maven Pro", Sans-serif;
-        font-size: 1.7em;
-        /* font-weight: 300; */
-        text-shadow: 8px 0px 0px rgba(0,0,0,0.3);
-   
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: #FFFFFF;
+    font-family: "Maven Pro", Sans-serif;
+    font-size: 1.7em;
+    /* font-weight: 300; */
+    text-shadow: 8px 0px 0px rgba(0,0,0,0.3);
+}
+.hosting-banner h1 {
+    width: 80%;
+    margin: auto;
 }
 .what-is-hosting {
     display: flex;
