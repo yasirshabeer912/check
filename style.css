@@ -199,6 +199,7 @@ nav ul li a {
     align-items: center;
     gap: 1rem;
     transition: all ease .3s;
+    text-decoration: none;
 }
 .call-button svg{
     fill: white;
