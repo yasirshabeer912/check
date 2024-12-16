@@ -260,7 +260,7 @@
         gap: 2rem;
     }
     .mobile-page-banner {
-        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./assets/smartphone-6701409_1920.jpg);
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://softwaredirekt.at/assets/smartphone-6701409_1920.jpg);
         height: 300px;
         text-align: start;
         background-blend-mode: overlay;

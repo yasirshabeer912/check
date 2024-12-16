@@ -27,12 +27,12 @@
     <meta property="og:description"
         content="Professionelle Softwarelösungen, Webentwicklung & digitale Services in Österreich. Individuell auf Ihre Bedürfnisse zugeschnitten.">
     <meta property="og:image"
-        content="https://softwaredirekt.at/wp-content/uploads/2024/07/Software_Direkt_1_-removebg-preview-e1719900712376.png">
+        content="https://softwaredirekt.at/assets/Software_Direkt_1_-removebg-preview-e1719900712376.png">
     <meta property="og:url" content="https://check-gilt-gamma.vercel.app">
 
     <!-- Canonical URL -->
     <link rel="canonical" href="https://check-gilt-gamma.vercel.app">
-    <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="https://softwaredirekt.at/assets/favicon.ico" type="image/x-icon">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <script type="application/ld+json">
@@ -56,6 +56,17 @@
 
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./mobile.css">
+<script>
+  // Check if the redirection has already been performed
+  if (!localStorage.getItem('redirected')) {
+    // Set a flag in localStorage so that this code won't run on subsequent visits
+    localStorage.setItem('redirected', 'true');
+    
+    // Redirect to the specified URL
+    window.location.href = "/index";
+  }
+</script>
+
 </head>
 
 <body>
@@ -67,26 +78,26 @@
         </div>
         <div class="main-header">
             <div class="logo">
-                <img src="https://softwaredirekt.at/wp-content/uploads/2024/07/Software_Direkt_1_-removebg-preview-e1719900712376.png"
+                <img src="https://softwaredirekt.at/assets/Software_Direkt_1_-removebg-preview-e1719900712376.png"
                     alt="SoftwareDirekt Logo">
             </div>
             <nav>
                 <ul>
-                    <li><a class="nav-link nav-active" href="/index.html">HOME</a></li>
-                    <li><a class="nav-link" href="./uber-uns.html">ÜBER UNS</a></li>
+                    <li><a class="nav-link nav-active" href="/index">HOME</a></li>
+                    <li><a class="nav-link" href="./uber-uns">ÜBER UNS</a></li>
                     <li class="services-dropdown ">
                         <a class="services-toggle">SERVICES ▼</a>
                         <div class="dropdown-content">
                             <div class="drop-down-links">
-                                <a href="./web.html">WEBENTWICKLUNG & DESIGN</a>
-                            <a href="./mobile.html">MOBILE APP ENTWICKLUNG</a>
-                            <a href="./frontend-backend.html">FRONTEND & BACKEND</a>
-                            <a href="./hosting.html">HOSTING</a>
-                            <a href="./api.html">API'S</a>
+                                <a href="./web">WEBENTWICKLUNG & DESIGN</a>
+                            <a href="./mobile">MOBILE APP ENTWICKLUNG</a>
+                            <a href="./frontend-backend">FRONTEND & BACKEND</a>
+                            <a href="./hosting">HOSTING</a>
+                            <a href="./api">API'S</a>
                             </div>
                         </div>
                     </li>
-                    <li><a class="nav-link"  href="./contact.html">KONTAKT</a></li>
+                    <li><a class="nav-link"  href="./contact">KONTAKT</a></li>
                 </ul>
             </nav>
             <div class="actions">
@@ -95,7 +106,7 @@
                     <div class="line"></div>
                     <div class="line"></div>
                 </div>
-<a href="https://schwarzdeckerprofi.at/contact-us/" class="call-button"><svg width="20" height="20" aria-hidden="true"
+<a href="/contact.html" class="call-button"><svg width="20" height="20" aria-hidden="true"
                         class="e-font-icon-svg e-fas-phone-volume" viewBox="0 0 384 512"
                         xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -199,12 +210,12 @@
                 </div>
             </section>
 
-            <a href="./contact.html" class="contact-button">Kontaktieren Sie uns</a>
+            <a href="./contact" class="contact-button">Kontaktieren Sie uns</a>
     </div>
     <footer class="footer">
         <div class="footer-logo-and-details">
             <div class="footer-logo ">
-                <img src="https://softwaredirekt.at/wp-content/uploads/2024/07/Software_Direkt_1_-removebg-preview-e1719900712376.png"
+                <img src="https://softwaredirekt.at/assets/Software_Direkt_1_-removebg-preview-e1719900712376.png"
                     alt="SoftwareDirekt Logo">
             </div>
             <div class="footer-details">
@@ -219,26 +230,26 @@
 
         </div>
 <div class="footer-links">
-            <a href="./AGBs.html">AGBs</a>
-            <a href="./impressum-datenschutz.html#impressum">Impressum</a>
-            <a href="./impressum-datenschutz.html#dtenschutzerklärung">Dtenschutzerklärung</a>
-            <a href="./impressum-datenschutz.html#cookies">Cookies</a>
+            <a href="./AGBs">AGBs</a>
+            <a href="./impressum-datenschutz#impressum">Impressum</a>
+            <a href="./impressum-datenschutz#dtenschutzerklärung">Dtenschutzerklärung</a>
+            <a href="./impressum-datenschutz#cookies">Cookies</a>
 
         </div>
         <div class="footer-social">
             <a href="#" aria-label="Facebook">
-                <img src="./assets/facebook.png" alt="Facebook">
+                <img src="https://softwaredirekt.at/assets/facebook.png" alt="Facebook">
             </a>
             <a href="#" aria-label="Twitter">
-                <img src="./assets/twitter.png" alt="twitter">
+                <img src="https://softwaredirekt.at/assets/twitter.png" alt="twitter">
 
             </a>
             <a href="#" aria-label="Instagram">
-                <img src="./assets/instagram.png" alt="instagram">
+                <img src="https://softwaredirekt.at/assets/instagram.png" alt="instagram">
 
             </a>
             <a href="#" aria-label="LinkedIn">
-                <img src="./assets/linkedin.png" alt="LinkedIn">
+                <img src="https://softwaredirekt.at/assets/linkedin.png" alt="LinkedIn">
 
             </a>
         </div>

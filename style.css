@@ -40,7 +40,7 @@ body {
 /* Header Start */
 
 .top-bar {
-    padding: 10px 0;
+    padding: 20px 0 10px;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -224,7 +224,7 @@ nav ul li a {
 .video-container {
     min-height: 90vh;
     position: relative;
-    background: url(./assets/bannerbgimage.png);
+    background: url(https://softwaredirekt.at/assets/bannerbgimage.png);
     background-size: cover;
     background-position: center;
 }
@@ -257,7 +257,7 @@ video::-moz-media-controls {
 .content-wrapper {
     min-height: 100vh;
     background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),
-        url('./assets/imagebox2.jpg');
+        url('https://softwaredirekt.at/assets/imagebox2.jpg');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -392,7 +392,7 @@ video::-moz-media-controls {
 }
 
 .project-background-overlay {
-    background-image: url("https://softwaredirekt.at/wp-content/uploads/2024/08/cropped-logo-removebg-preview.png");
+    background-image: url("https://softwaredirekt.at/assets/cropped-logo-removebg-preview.png");
     background-repeat: no-repeat;
     opacity: 0.2;
     transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
@@ -496,7 +496,7 @@ video::-moz-media-controls {
 
 /* page banner */
 .team-banner {
-    background-image: url('https://softwaredirekt.at/wp-content/uploads/2024/07/philipp-katzenberger-iIJrUoeRoCQ-unsplash.jpg');
+    background-image: url('https://softwaredirekt.at/assets/philipp-katzenberger-iIJrUoeRoCQ-unsplash.jpg');
     background-size: cover;
     background-position: center;
     padding: 40px 20px;
@@ -613,7 +613,7 @@ video::-moz-media-controls {
 
 .team-location {
     margin-bottom: 7rem;
-    margin-top: 10rem;
+    margin-top: 7rem;
     width: 40%;
 }
 
@@ -626,6 +626,7 @@ video::-moz-media-controls {
     line-height: 1.3em;
     letter-spacing: 1px;
     margin-bottom: 2rem;
+    text-transform: none !important;
 }
 
 /* section team content end */
@@ -731,7 +732,7 @@ video::-moz-media-controls {
 /* =================== WEB PAGE ===================== */
 
 .web-header {
-    background-image: url('./assets/iStock-1294393494.jpg');
+    background-image: url('https://softwaredirekt.at/assets/iStock-1294393494.jpg');
     background-size: cover;
     background-position: center;
     height: 250px;
@@ -827,14 +828,14 @@ video::-moz-media-controls {
 /* =================== MOBILE APPS PAGE ===================== */
 
 .mobile-page-banner {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.38), rgba(0, 0, 0, 0.38)),url('./assets/smartphone-6701409_1920.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('https://softwaredirekt.at/assets/smartphone-6701409_1920.jpg');
     background-size: cover;
     background-position: center;
     height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: end;
+    align-items: center;
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     padding: 0% 10%;
@@ -849,7 +850,7 @@ video::-moz-media-controls {
     
 }
 .api-page-banner {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('./assets/network-9091914_1920.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('https://softwaredirekt.at/assets/network-9091914_1920.jpg');
     background-size: cover;
     background-position: center;
     height: 250px;
@@ -949,7 +950,7 @@ video::-moz-media-controls {
 }
 
 .ideenfindung {
-    background: url('./assets/phone-8155102_1920.jpg');
+    background: url('https://softwaredirekt.at/assets/phone-8155102_1920.jpg');
     background-size: cover;
     background-position: center;
     color: white;
@@ -957,7 +958,7 @@ video::-moz-media-controls {
     border-radius: 10px;
 }
 .ideenfindung.api{
-    background: url('./assets/tree-2593542_1920.jpg');
+    background: url('https://softwaredirekt.at/assets/tree-2593542_1920.jpg');
     background-size: cover;
     background-position: center; 
     background-attachment: fixed;
@@ -1062,7 +1063,7 @@ video::-moz-media-controls {
 
 
 .page-banner {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url('./assets/istockphoto-537331500-1024x1024-1.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url('https://softwaredirekt.at/assets/istockphoto-537331500-1024x1024-1.jpg');
     background-size: cover;
     background-position: center top;
     color: white;
@@ -1176,7 +1177,7 @@ video::-moz-media-controls {
 }
 
 .contact-section {
-    background: url(./assets/tree-2593542_1920.jpg);
+    background: url(https://softwaredirekt.at/assets/tree-2593542_1920.jpg);
     color: white;
     padding: 6rem 0;
     text-align: center;
@@ -1217,7 +1218,7 @@ video::-moz-media-controls {
 
 .hosting-banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0.26)),
-        url('./assets/hosting-banner.jpg');
+        url('https://softwaredirekt.at/assets/hosting-banner.jpg');
     background-size: cover;
     background-position: center;
     height: 250px;
@@ -1286,7 +1287,7 @@ ul {
 
 .professional-hosting {
     background-image:linear-gradient(rgba(0, 0, 0, 0.356), rgba(0, 0, 0, 0.418)),
-     url('./assets/hostingbg.webp');
+     url('https://softwaredirekt.at/assets/hostingbg.webp');
     background-size: cover;
     background-position: center;
     color: white;
@@ -1389,7 +1390,7 @@ ul {
 
 /* /* page banner */
 section.contact-header {
-    background: url(./assets/contact-header-bg.jpg);
+    background: url(https://softwaredirekt.at/assets/contact-header-bg.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -1582,7 +1583,7 @@ section.contact-header {
     justify-content: space-between;
     align-items: center;
     max-width: 98%;
-    margin: 5rem auto 0;
+    margin: 5rem auto 1.5rem;
 }
 
 .footer-logo-and-details {
